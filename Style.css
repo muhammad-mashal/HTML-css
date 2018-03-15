@@ -1,0 +1,131 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	
+	margin: 0px;
+	padding: 0px;
+	background-color: dimgray;
+}
+* {	
+	box-sizing: border-box;
+	margin: 0px;
+	padding: 0px;
+}
+.container{
+	width: 286px;
+	margin: auto;
+	background-color: white;
+}
+.container .topMenu{
+	width: 100%;
+	height: 35px;
+	background-color: #ed2338;
+	padding: 10px;
+}
+.container .topMenu .menu-icon{
+	width: 22px;
+	height: 13px;
+	float: left;
+}
+.container .topMenu .chat-icon{
+	width: 23px;
+	height: 19px;
+	float: right;
+}
+.container .center-container{
+	width: 100%;
+	height: 100%;
+	padding: 10px;
+    text-align: center;
+}
+.container .center-container .Main-Content{
+	border: 1px solid #9B9999;
+    border-radius: 12px;
+	width: 100%;
+	padding: 10px 10px 0px 10px;
+	background-color: white;
+}
+.container .center-container .Main-Content .box2{
+    border-radius: 12px;
+	width: 100%	;
+	background-color: #F0EFEF;
+	padding: 10px 10px 0px 10px;
+}
+.container .center-container .Main-Content .box3{
+	border: 1px solid #9B9999;
+    border-radius: 12px;
+	width: 100%;
+	background-color: white;
+	padding: 10px 10px 0px 10px;
+	text-align: center;
+}
+.container .center-container .Main-Content .box3 .img-holder{
+	width: 150px;
+	height: 150px;
+	display: inline-block;
+	border-radius: 50%;
+	overflow: hidden;
+}
+.container .center-container .Main-Content .box3 .img-holder img{
+	width: 100%;
+	display: block;
+	margin: 0 auto;
+	height: 100%;
+}
+.text-info{
+	
+	padding: 12px 0px;
+}
+.text-info h1 {
+    color: black;
+	font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+	font-size: 14px;
+    font-weight: bold;
+	font-variant: small-caps;
+	text-align: center;
+	margin-bottom: 15px;
+}
+.container .center-container .int-icons{
+
+	display: block;
+	padding: 8px 0px;
+}
+.button {
+  border-radius: 8px;
+  background-color: #ed2338;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  padding: 10px 36px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+	font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+	font-size: 18px;
+	font-variant: small-caps;
+}
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+.button:hover span {
+  padding-right: 20px;
+}
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+.button2 {
+  background-color: #187138;
+}
